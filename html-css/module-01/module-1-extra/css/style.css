@@ -1,0 +1,50 @@
+.task№1{
+  margin: 50px auto ;
+  width: 200px;
+  box-shadow: 0px 0px 5px 0px #707070;
+  }
+.string{
+  padding: 10px;
+}
+.box{
+  padding: 10px;
+}
+
+.task№2{
+  margin: 50px auto;
+  padding: 20px 50px;
+  width: 530px;
+  box-shadow: 0px 0px 10px 0px #707070;
+}
+.bold{
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #364c80;
+}
+
+.task№3{
+  margin: 50px auto;
+  padding: 20px 50px;
+  width: 400px;
+  box-shadow: 0px 0px 10px 0px #707070;
+}
+.list{
+  padding: 10px;
+  list-style-type: decimal;
+}
+.point{
+  margin: 2px;
+}
+.top{
+  font-weight: bold;
+}
+
+.task№4{
+  margin: 50px auto;
+  padding: 10px 30px;
+  width: 300px;
+  box-shadow: 0px 0px 10px 0px #707070;
+}
+.society{
+  list-style-type: disc;
+}
