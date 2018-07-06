@@ -1,0 +1,62 @@
+.wrapper{
+  margin: 10px auto;
+  padding: 10px;
+  width: 900px;
+  box-shadow: 0px 0px 10px 0px #707070;
+}
+
+.head{
+  margin: 10px auto;
+  width: 450px;
+}
+.title{
+  margin: 0px auto;
+  text-align: center;
+  font-size: 250%;
+  color: #1b41a3;
+}
+.plane{
+  padding: 10px;
+}
+
+.body{
+  margin: 2px auto;
+  width: 800px;
+}
+.desc{
+  margin: 10px;
+}
+.bold{
+  margin: 10px 0px;
+  font-weight: bold;
+}
+.paragraph{
+  padding: 4px;
+}
+.principles{
+  margin: 10px;
+}
+.secondtitle{
+  padding: 10px 0px;
+  font-size: 200%;
+}
+.list{
+  padding: 20px 0px;
+  list-style-type: decimal;
+}
+.fulltitle{
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 110%
+}
+
+.offers{
+  margin: 10px;
+}
+
+.footer{
+  margin: 10px 20px;
+}
+.link{
+  color: #5d42a2
+}
