@@ -2,35 +2,38 @@
   box-sizing: border-box;
 }
 
-.task-1 {
-  margin: 50px auto;
-  padding: 28px 38px 28px 38px;
-  width: 480px;
-  box-shadow: 0px 0px 10px 0px #707070;
-}
-.profile-heading, .principles-heading {
+h2{
   margin-bottom: 16px;
   font-family: Dorsa;
   font-size: 34px;
   font-weight: bold;
   color: #2e3e62;
 }
-
-.profile-desc, .principles-desc {
+h3{
   margin: 12px 0px;
   font-family: Pathway Gothic One;
   font-size: 16px;
   font-weight: bold;
   color: #2e3e62;
 }
-
-.profile-paragraph, .principles-paragraph{
-  margin: 22px 0px;
+p {
+  margin-top: 22px;
   font-weight: lighter;
 }
 
-.task-2 {
+.task-1 {
   margin: 50px auto;
+  padding: 28px 38px 28px 38px;
+  width: 480px;
+  box-shadow: 0px 0px 10px 0px #707070;
+}
+
+.principles{
+  margin-top: 22px;
+}
+
+.task-2 {
+  margin: auto;
   padding: 28px 38px 28px 38px;
   width: 480px;
   box-shadow: 0px 0px 10px 0px #707070;
