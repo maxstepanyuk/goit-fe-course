@@ -1,0 +1,44 @@
+.page-header{
+
+}
+
+.logo-container{
+  padding: 0px 200px;
+  margin-bottom: 24px;
+}
+.logo{
+  display: block;
+  padding: 20px 16px;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  height: 78px;
+  width: 78px;
+  font-family: "Dorsa";
+  font-size: 32px;
+  font-weight: lighter;
+  color: rgb(38, 53, 85);
+}
+
+.header-menu {
+  padding: 0px 120px;
+  margin-bottom: 60px;
+  font-size: 0px;
+}
+.header-menu-item{
+  display: inline-block;
+  margin-right: 24px;
+  margin-bottom: 20px;
+  width: 64px;
+}
+.header-menu-item:nth-child(3n){
+  margin-right: 0px;
+}
+.header-menu-item:nth-child(n+4){
+  margin-bottom: 0px;
+}
+.header-menu-link{
+  text-transform: uppercase;
+  font-family: "Pathway Gothic One";
+  font-size: 20px;
+  color: white;
+}

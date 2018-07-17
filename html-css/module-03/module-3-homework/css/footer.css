@@ -1,0 +1,109 @@
+.footer{
+}
+.footer-bg{
+  margin-bottom: 30px;
+  padding: 20px 100px;
+  background-color: #146983;
+}
+.footer-menu {
+  margin-bottom: 20px;
+  font-size: 0px;
+}
+.footer-menu-item{
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 90px;
+  font-family: "Pathway Gothic One";
+  font-size: 20px;
+}
+.footer-menu-item:nth-child(n+4){
+  margin-bottom: 0px;
+}
+.footer-menu-link, .coctacts-text{
+  text-transform: uppercase;
+  font-family: "Pathway Gothic One";
+  font-size: 14px;
+  font-weight: lighter;
+  color: white;
+}
+.coctacts{
+}
+.coctacts-text{
+  display: inline-block;
+  vertical-align: top;
+  width: 70px;
+}
+.contacts-list{
+  display: inline-block;
+
+  vertical-align: top;
+}
+.contacts-item{
+  padding: 2px;
+  font-family: "Arial";
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+.footer-social{
+  margin-bottom: 10px;
+}
+.footer-social-list{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0px;
+}
+.footer-social-item{
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-social-item:last-child{
+  margin-right: 0px;
+}
+.footer-social-link{
+  display: inline-block;
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  color: rgba(0, 0, 0, 0);
+  background-size: 24px;
+}
+.footer-social-item:nth-child(1) .footer-social-link {
+  background-image: url(../img/twitter-logo-button.png);
+}
+.footer-social-item:nth-child(2) .footer-social-link {
+  background-image: url(../img/facebook-logo-button.png);
+}
+.footer-social-item:nth-child(3) .footer-social-link {
+  background-image: url(../img/google-plus-logo-button.png);
+}
+.footer-social-item:nth-child(4) .footer-social-link {
+  background-image: url(../img/linkedin-logo-button.png);
+}
+
+
+
+
+
+
+.copyright{
+}
+.copyright-list{
+  text-align: center;
+  font-size: 0px;
+}
+
+.copyright-item{
+  display: inline-block;
+  margin-right: 2px;
+}
+.copyright-item:last-child{
+  margin-right: 0px;
+}
+
+.copyright-link, .copyright-divider{
+  font-size: 10px;
+}

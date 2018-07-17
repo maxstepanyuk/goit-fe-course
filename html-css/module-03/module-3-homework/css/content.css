@@ -1,0 +1,108 @@
+.content {
+  padding: 50px 36px;
+  background-color: white;
+}
+
+.agensy-artile, .principles-artile, .offers-artile {
+  margin-bottom: 50px;
+}
+.agensy-heading, .principles-heading, .offers-heading,  .testimonial-heading {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "PathwayGothicOne";
+  font-weight: bold;
+  color: rgb(38, 53, 85);
+}
+.plane {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.agensy-desc, .offers-desc, .principles-desc {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: rgb(38, 53, 85);
+}
+.agensy-paragraph, .principles-paragraph, .offers-paragraph{
+  font-weight: lighter;
+}
+
+.principles-list{
+  padding-left: 36px;
+  list-style-type: decimal;
+}
+.principles-item{
+  margin-bottom: 26px;
+}
+.principles-item:last-child{
+  margin-bottom: 0px;
+}
+.principles-desc {
+  margin-bottom: 14px;
+}
+
+.divider{
+  margin-bottom: 50px;
+  height: 1px;
+  width: 400px;
+  background-color: #cccccc;
+}
+
+.offers-list{
+  margin-bottom: 60px;
+}
+.offers-item{
+  display: inline-block;
+  margin-right: 24px;
+  margin-bottom: 20px;
+  width: 190px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(38, 53, 85);
+}
+.offers-item:nth-child(2n){
+  margin-right: 0px;
+}
+.offers-item:last-child{
+  margin-bottom: 0px;
+}
+.pointer{
+  display: inline-block;
+  margin-right: 10px;
+}
+.offers-item-text{
+  display: inline-block;
+}
+
+.testimonial-artile{
+  /*
+  padding-bottom: 50px;
+  */
+}
+.testimonial-paragraph-container{
+  padding: 0px 70px;
+}
+.testimonial-paragraph{
+  width: 240px;
+  padding: 20px 10px 40px 10px;
+  margin-bottom: 10px;
+  width: 268px;
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(38, 53, 85);
+  background-image: url(../img/speech.png);
+}
+.testimonial-member{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(38, 53, 85);
+}
+.testimonial-member-info{
+  text-align: center;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb(38, 53, 85);
+}
