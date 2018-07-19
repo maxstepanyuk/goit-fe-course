@@ -1,9 +1,9 @@
 *{
   box-sizing: border-box;
   text-decoration: none;
-
+/*
   outline: 1px solid rgba(200, 0, 0, 0.2);
-
+*/
 }
 body{
   background-image: url(../img/background.jpg);

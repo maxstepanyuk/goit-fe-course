@@ -68,7 +68,7 @@
   font-size: 16px;
   width: 24px;
   height: 24px;
-  color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0);
   background-size: 24px;
 }
 .footer-social-item:nth-child(1) .footer-social-link {
@@ -101,4 +101,5 @@
 
 .copyright-link, .copyright-divider{
   font-size: 10px;
+  color: rgb(255, 255, 255);
 }
