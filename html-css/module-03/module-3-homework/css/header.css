@@ -1,27 +1,29 @@
 .page-header{
-
+  margin-bottom: 60px;
 }
 
 .logo-container{
-  padding: 0px 200px;
+  text-align: center;
   margin-bottom: 24px;
 }
 .logo{
-  display: block;
-  padding: 20px 16px;
-  background-image: url(../img/logo.png);
-  background-size: cover;
+  display: inline-block;
+  padding: 20px 0px;
+  vertical-align: middle;
+  text-align: center;
   height: 78px;
   width: 78px;
   font-family: "Dorsa";
   font-size: 32px;
   font-weight: lighter;
   color: rgb(38, 53, 85);
+  background-image: url(../img/logo.png);
+  background-size: cover;
 }
 
 .header-menu {
   padding: 0px 120px;
-  margin-bottom: 60px;
+
   font-size: 0px;
 }
 .header-menu-item{

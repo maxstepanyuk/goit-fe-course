@@ -54,9 +54,9 @@
 }
 .offers-item{
   display: inline-block;
-  margin-right: 24px;
+  margin-right: 4px;
   margin-bottom: 20px;
-  width: 190px;
+  width: 200px;
   font-size: 12px;
   font-family: "Arial";
   color: rgb(38, 53, 85);
@@ -68,25 +68,22 @@
   margin-bottom: 0px;
 }
 .pointer{
-  display: inline-block;
   margin-right: 10px;
 }
 .offers-item-text{
-  display: inline-block;
+  display: inline;
 }
 
 .testimonial-artile{
-  /*
-  padding-bottom: 50px;
-  */
+
 }
 .testimonial-paragraph-container{
   padding: 0px 70px;
+  margin-bottom: 10px;
 }
 .testimonial-paragraph{
   width: 240px;
-  padding: 20px 10px 40px 10px;
-  margin-bottom: 10px;
+  padding: 20px 10px 42px 10px;
   width: 268px;
   font-size: 14px;
   font-family: "Arial";
