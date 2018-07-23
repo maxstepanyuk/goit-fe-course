@@ -6,13 +6,12 @@
   background-color: #30455b;
 }
 .footer-menu {
-  margin-bottom: 20px;
   font-size: 0px;
 }
 .footer-menu-item{
   display: inline-block;
-  margin-bottom: 20px;
-  width: 90px;
+  height: 40px;
+  width: 80px;
   font-family: "Pathway Gothic One";
   font-size: 20px;
 }
