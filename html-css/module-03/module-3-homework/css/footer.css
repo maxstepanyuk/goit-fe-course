@@ -16,6 +16,7 @@
   font-family: "Pathway Gothic One";
   font-size: 20px;
 }
+
 .footer-menu-item:nth-child(n+4){
   margin-bottom: 0px;
 }
@@ -35,18 +36,14 @@
 }
 .contacts-list{
   display: inline-block;
-
   vertical-align: top;
 }
 .contacts-item{
   padding: 2px;
   font-family: "Arial";
   font-size: 10px;
-  color: rgb(255, 255, 255);
+  color: white;
 }
-
-
-
 
 .footer-social{
   margin-bottom: 10px;
@@ -68,7 +65,7 @@
   font-size: 16px;
   width: 24px;
   height: 24px;
-  color: rgba(255, 255, 255, 0);
+  color: white;
   background-size: 24px;
 }
 .footer-social-item:nth-child(1) .footer-social-link {
@@ -101,5 +98,5 @@
 
 .copyright-link, .copyright-divider{
   font-size: 10px;
-  color: rgb(255, 255, 255);
+  color: white;
 }

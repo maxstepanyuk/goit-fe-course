@@ -3,44 +3,42 @@
 }
 
 .logo-container{
-  text-align: center;
-  margin-bottom: 24px;
+  display: block;
+  margin-bottom: 30px;
 }
 .logo{
-  display: inline-block;
-  padding: 20px 0px;
-  vertical-align: middle;
-  text-align: center;
+  display: block;
   height: 78px;
   width: 78px;
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
   font-family: "Dorsa";
   font-size: 32px;
-  font-weight: lighter;
-  color: rgb(38, 53, 85);
+  color: black;
   background-image: url(../img/logo.png);
   background-size: cover;
 }
-
+.header-menu{
+  margin: auto;
+  width: 240px;
+}
 .header-menu {
-  padding: 0px 120px;
-
   font-size: 0px;
 }
 .header-menu-item{
   display: inline-block;
-  margin-right: 24px;
-  margin-bottom: 20px;
-  width: 64px;
-}
-.header-menu-item:nth-child(3n){
-  margin-right: 0px;
-}
-.header-menu-item:nth-child(n+4){
-  margin-bottom: 0px;
+  height: 40px;
+  width: 80px;
+  align-items: center;
+
 }
 .header-menu-link{
   text-transform: uppercase;
   font-family: "Pathway Gothic One";
   font-size: 20px;
   color: white;
+}
+.header-menu-link:hover{
+  color: black;
 }
