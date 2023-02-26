@@ -1,0 +1,63 @@
+.content {
+  padding: 80px 46px;
+  background-color: white;
+}
+
+.agensy-artile, .principles-artile, .offers-artile {
+ margin-bottom: 70px;
+}
+.agensy-heading, .principles-heading, .offers-heading,  .testimonial-heading {
+  margin-bottom: 30px;
+  font-family: "Pathway Gothic One";
+  font-size: 28px;
+  text-transform: uppercase;
+  color: rgb(38, 53, 85);
+}
+.plane {
+  margin-right: 20px;
+  float: left;
+}
+.agensy-desc, .offers-desc, .principles-desc {
+  margin-bottom: 10px;
+  font-family: "Arial";
+  font-size: 15px;
+  line-height: 1.3;
+  color: #263555;
+}
+.agensy-paragraph, .principles-paragraph, .offers-paragraph{
+  font-family: "Arial";
+  font-size: 13px;
+  line-height: 1.5;
+}
+.agensy-artile > .clearfix{ /*  clearfix вложен в agensy-artile  */
+  margin-bottom: 10px;
+}
+
+.principles-list{
+  counter-reset: list;
+}
+.principles-item{
+  margin-right: 5%;
+  width: 30%;
+  float: left;
+}
+.principles-item::before {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 50%;
+  counter-increment: list;
+  content: counter(list);
+  background-color: #38afe5;
+  color: white;
+}
+
+.principles-item:last-child{
+  margin-right: 0px;
+}
+
+.divider{
+  margin-bottom: 50px;
+  height: 1px;
+  width: 100%;
+  background-color: #cccccc;
+}

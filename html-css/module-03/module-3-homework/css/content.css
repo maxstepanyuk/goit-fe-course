@@ -33,6 +33,7 @@
 }
 .principles-item{
   margin-bottom: 26px;
+  width: 160px;
 }
 .principles-item:last-child{
   margin-bottom: 0px;

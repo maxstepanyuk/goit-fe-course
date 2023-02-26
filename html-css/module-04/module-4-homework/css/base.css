@@ -1,17 +1,22 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
-/*
+
   outline: 1px solid rgba(200, 0, 0, 0.5);
-*/
 }
 body{
   background-image: url(../img/background.jpg);
   background-size: cover;
+
 }
 .wrapper {
-  width: 480px;
+  width: 770px;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.clearfix::after{
+  display: block;
+  content: '';
+  clear: both;
 }
